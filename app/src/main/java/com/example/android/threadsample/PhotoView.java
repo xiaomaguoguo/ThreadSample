@@ -108,8 +108,7 @@ public class PhotoView extends ImageView {
                 getContext().obtainStyledAttributes(attributeSet, R.styleable.ImageDownloaderView);
         
         // Gets the resource Id of the View to hide or show
-        mHideShowResId =
-                attributes.getResourceId(R.styleable.ImageDownloaderView_hideShowSibling, -1);
+        mHideShowResId = attributes.getResourceId(R.styleable.ImageDownloaderView_hideShowSibling, -1);
         
         // Returns the array for re-use
         attributes.recycle();
